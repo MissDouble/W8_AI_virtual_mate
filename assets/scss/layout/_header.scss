@@ -1,4 +1,14 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.navbar-bg{
+  @include gradient-y;
+  @media (min-width:992px){
+    background-image: none;
+  }
 }
