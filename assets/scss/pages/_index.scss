@@ -14,7 +14,7 @@
 }
 
 .ai-image{
-  height:876px !important;
+  // max-height:876px !important;
   object-fit: cover;
 }
 
@@ -121,4 +121,21 @@
   height: 12px;
 
   background: white;
+}
+
+.font-rwd-header{
+  letter-spacing: 16px;
+  font-size: 16px;
+  @media (min-width:768px) {
+    letter-spacing: 30px;
+    font-size: 32px;
+  }
+}
+.font-rwd-intro{
+  letter-spacing: 16px;
+  font-size: 16px;
+  @media (min-width:768px) {
+    letter-spacing: 24px;
+    font-size: 48px;
+  }
 }
