@@ -1,3 +1,124 @@
 .index-title {
   font-size: 100px;
 }
+.fs-400{
+  font-size: 400px;
+}
+
+.aiintro-card-content {
+  background-color: #000;
+  transition: 0.5s;
+  &:hover {
+    background-color: #00000080;
+  }
+}
+
+.ai-image{
+  height:876px !important;
+  object-fit: cover;
+}
+
+
+
+.line-block1{
+  height: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  @include gradient-x-1;
+}
+.line-block2{
+  height: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  @include gradient-x-2;
+}
+
+.color-AD93CF{
+  color: #AD93CF;
+}
+.circle-img{
+  max-width: 196px;
+}
+.header-ai-img{
+  // max-height: 676px;
+  // object-fit:cover;
+}
+
+.info{
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  position: absolute;
+  // background-color: rgba(0, 0, 0, .3);
+  color: white;
+  width: 100%;
+  height: 100%;
+  top: 32px ;
+}
+.info-2{
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  top:40%;
+  right:21px;
+}
+.feedback{
+  @include radial-gradient(#000000, #28085c);
+}
+
+// 使用分享
+.share {
+  .share-swiper {
+    .swiper-wrapper {
+      margin-bottom: 0;
+      height: 416px;
+    }
+  }
+  .swiper-scrollbar {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .swiper-scrollbar-drag {
+    background: #ffffff !important;
+  }
+  .share-scroll {
+    margin-bottom: 124px;
+  }
+}
+
+.share {
+  &-card {
+    padding: 40px;
+    background-color: #380c7e;
+    color: #ffffff;
+    min-height: 351px;
+  }
+}
+.fs-7{
+  font-size: 7px;
+}
+// 使用分享
+
+.pt-160{
+  padding-top: 160px;
+}
+.contact{
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+.comments{
+  height: 120px;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+}
+.line{
+  width: 124px;
+  height: 12px;
+
+  background: white;
+}
